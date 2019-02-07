@@ -1,0 +1,315 @@
+/*
+Project Name: Law Farm
+Author Name: SR Shohag
+
+========Index=======
+
+1.Global Css-19
+2.Navbar css-34
+3.Hero section css-77
+4.About Section-133
+5.Practise Section Css-161
+6. Team Section -196
+7.
+8.
+9.
+10.
+*/
+
+/* ==1== Global Css */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+section{
+	
+
+}
+
+
+
+
+/* ==2== navigation css*/
+
+.navigation{
+	padding-top: 20px;
+	padding-bottom: 20px !important;
+	z-index: 100;
+	
+}
+.navbar ul{
+	float: right;
+	margin-left: 240px;
+}
+.logo{
+	padding-left: 0px;
+}
+.logo h4{
+	position: relative;
+}
+.logo h4:after{
+	content: " ";
+	width: 7px;
+	height: 7px;
+	background-color: #e8bf5d;
+	display: block;
+	border-radius: 100%;
+	position: absolute;
+	right:-10px;
+	bottom:5px;
+	position: absolute;
+}
+}
+
+.navbar li{
+	display: inline-block;
+	list-style: none;
+}
+.navbar ul a{
+	margin-left: 20px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #111111;
+	transition:all 0.5s ease-in; 
+	border: none;
+}
+@media (min-width:720px)and (max-width: 960px){
+	.navbar ul a{
+	margin-left: 20px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #111111;
+	transition:all 0.5s ease-in; 
+	border: none;
+}
+
+}
+.navbar ul a:hover{
+	border-bottom: 3px solid #e8bf5d;
+	padding-bottom: 5px;
+}
+
+/* ==3== Hero section css*/
+
+.hero{
+
+	background-image:url(../img/law-farm.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	
+}
+
+.hero p{
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+.h-cont{
+	padding-bottom: 50px;
+}
+.hero-content{
+	padding-top:50%;
+	color: #fff;
+	position: relative;
+	padding-bottom: 50px;
+	
+}
+.hero-button{
+	padding-top:50%;
+	color: #fff;
+	position: relative;
+	padding-bottom: 50px;
+	
+}
+.hero-content::before{
+	content: " ";
+	width: 3px;
+	height: 90px;
+	background-color: #e8bf5d;
+	display: block;
+	position: absolute;
+	left:0px;
+}
+.btn{
+	border: none;
+	width: 151px;
+	height: 43px;
+	background-color: #e8bf5d !important;
+	float: right;
+	margin-right: 170px;
+	border-radius: 25px;
+	font-size: 20px;
+	transition: 0.5s; 
+	position: absolute;
+
+}
+.btn:hover{
+	background-color: #fff !important;
+	color: #000;
+	transition: 0.5s; 
+
+}
+/* ==4== About Section Css*/
+.about{
+	padding: 60px 0px;
+}
+.about-head{
+	position: relative;
+
+}
+.about-head::before{
+	content: " ";
+	width: 3px;
+	height: 100%;
+	display: block;
+	background-color: #e8bf5d;
+	position: absolute;
+	left: -12px;
+}
+.about-body{
+	margin: 30px 0px 0px;
+	margin-left: -32px;
+}
+.about-heading{
+	margin: 30px 0px;
+	cursor: pointer;
+}
+.about-p-1{
+	line-height: 35px;
+	margin-left: 15px;
+}
+.about-p-2{
+	line-height: 35px;
+	display: none;
+	margin-left: 15px;
+}
+#exper{
+	padding-left: 30px;
+}
+
+#ed-bg-1,#ed-bg-2{
+	background-color:#111;
+	color: #fff;
+	width: 100%;
+	margin:2px 0px;
+}
+#exper h3{
+	padding-left: 5px;
+}
+
+/* ==5== Practise Section Css*/
+
+.practise{
+	background-color:#111111;
+	color:#fff;
+	padding: 60px 0px;
+}
+.pra-heading{
+	position: relative;
+
+}
+.pra-heading::before{
+	position: absolute;
+	content: " ";
+	height: 100%;
+	width: 3px;
+	display: block;
+	background-color:#e8bf5d;
+}
+.practise p{
+	font-size:13px;
+}
+.pra-body{
+	padding: 40px 0px 0px;
+	padding-left: 40px;
+}
+.pra-body-one{
+	padding-right: 54px;
+
+}
+.pra-body-two{
+	padding-left: 25px;
+
+}
+
+/* ==6== Team Section Css*/
+.team{
+	padding: 60px 0px;
+}
+.team-heading{
+	position:relative;
+}
+.team-heading::before{
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	background-color:#e8bf5d;
+	display: block;
+	content:" ";
+	left: 0px;
+}
+.persons{
+	padding-top: 60px;
+}
+.persons-2{
+	display: none;
+}
+.t-border{
+	position: relative;
+	border-bottom: 1px solid #111;
+	margin-top: 14px;
+}
+.btn-more{
+	position: absolute;
+	border: none;
+	background-color: #fff;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	font-size: 18px;
+	z-index: 100;
+	left: 46%;
+
+}
+.btn-less{
+	position: absolute;
+	border: none;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+	z-index: 99;
+	left: 46%;
+}
+/* Client section*/
+.client{
+	padding: 60px 0px;
+	background-image: url(../img/client-bg.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	color: #fff;
+}
+#c-body{
+	padding: 30px 0px;
+}
+.client-img img{
+	box-shadow: 15px 15px  #e8bf5d;
+}
+#coma{
+	float: right;
+	font-size: 30px !important;
+	padding: 30px 0px;
+}
+#client-p{
+	padding: 35px 0px;
+}
+.owl-nav{
+	margin-left: 50%;
+	height: 
+}
